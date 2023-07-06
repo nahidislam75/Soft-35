@@ -1,0 +1,58 @@
+.login__register__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login__register__form h2,
+  .login__register__form h3 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  
+  .login__register__form p {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .login__register__form form {
+    border: 1px solid lightgrey;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .login__register__form form label {
+    margin: 10px 0;
+    font-weight: 600;
+    display: block;
+  }
+  
+  .login__register__form form input {
+    font-family: inherit;
+    width: 400px;
+    border: 1px solid lightgrey;
+    padding: 8px 20px;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  
+  .login__register__form form input:focus {
+    outline: 2px solid lightgrey;
+  }
+  
+  .login__register__form button,
+  .login__register__form form input[type='submit'] {
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 3px;
+    vertical-align: middle;
+    background-color: #f0c14b;
+    color: #111;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0;
+  }
+  
